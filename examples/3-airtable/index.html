@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airtable</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Airtable</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body class="bg-gray-100 text-gray-800 font-sans min-h-screen">
-
-  <!-- Navbar -->
-  <nav class="bg-white shadow-md">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="flex items-center space-x-4">
-        <a href="../../index.html" class="text-lg font-semibold text-gray-700 hover:text-blue-500 transition">
-          Home
-        </a>
+  <body class="bg-gray-100 text-gray-800 font-sans min-h-screen">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+      <div
+        class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <a
+            href="../../index.html"
+            class="text-lg font-semibold text-gray-700 hover:text-blue-500 transition">
+            Home
+          </a>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- Content Section -->
-  <section class="max-w-4xl mx-auto mt-16 px-4 text-center">
-    <h1 class="text-4xl font-bold text-blue-600 mb-8">Airtable</h1>
-    <div class="result flex justify-between items-center  flex-row flex-wrap p-2 border border-none">
-      <div class="relative w-full h-full aspect-w-1 aspect-h-1">
-        <svg class="animate-spin h-10 w-10 text-blue-500 absolute inset-0 m-auto" xmlns="http://www.w3.org/2000/svg"
-          fill="none" viewBox="0 0 24 24">
-          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
-        </svg>
+    <!-- Content Section -->
+    <section class="max-w-4xl mx-auto mt-16 px-4 text-center">
+      <h1 class="text-4xl font-bold text-blue-600 mb-8">Airtable</h1>
+      <div
+        class="result flex justify-between items-center flex-row flex-wrap p-2 border border-none">
+        <div class="relative w-full h-full aspect-w-1 aspect-h-1">
+          <svg
+            class="animate-spin h-10 w-10 text-blue-500 absolute inset-0 m-auto"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24">
+            <circle
+              class="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              stroke-width="4"></circle>
+            <path
+              class="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+          </svg>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
-    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
-    crossorigin="anonymous"></script>
-  <script src="./app.js"></script>
-
-</body>
-
+    <!-- Scripts -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+  </body>
 </html>
